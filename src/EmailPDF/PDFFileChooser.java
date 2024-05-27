@@ -74,8 +74,8 @@ public class PDFFileChooser extends JFrame {
     }
 
     private void sendEmail() {
-    String myEmail = "visimaladesktop@gmail.com";
-    String emailPassword = "cqos cciu knat feyp";
+    String myEmail = "your_email";
+    String emailPassword = "your_password";
 
         String recipient = JOptionPane.showInputDialog(this, "Enter recipient email address:");
         if (recipient == null || recipient.isEmpty()) {
